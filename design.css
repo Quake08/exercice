@@ -1,20 +1,64 @@
+
 .page {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background : rgb(169, 169, 169)
 }
 
-.sous_page {
-   background : white ;
-   width: 700px;
-   display : block;
-   margin-left: auto ; 
-   margin-right: auto;
-   position:static;
+    .sous_page {
+        width: 700px;
+        display : block;
+        margin-left: auto ; 
+        margin-right: auto;
+        position: relative;
+        
 }
 
-#photo_mr {
-    display : block;
-    margin-left: auto ; 
-    margin-right: auto;    
+.carré_1 {
+    background : rgba(169, 169, 169, 0.377);
+    text-align: center;
+    
+}
+
+    #photo_mr {
+        display : block;
+        margin-left: auto ; 
+        margin-right: auto; 
+        border-radius:360px;  
+        border : black solid 3px ;
+        width : 150px;
+
+}
+.titre1 {
+    color :red ;
+}
+.carré_2 {
+    width: 100%;
+    display : flex ; 
+    flex-direction: row ; 
+    align-items: center;
+    justify-content: center;
+    font-size : 30px ; 
+    text-align: center;
+    margin-top: 50px ;
+    background : rgba(169, 169, 169, 0.377);
+    
+    
+}
+
+         .cl1 {
+            margin-left: 100px ;
+            margin-right: 100px; 
+        }
+}
+         .cl2 {
+}
+         .cl3 {
+
+            margin-left : 100px ;
+            margin-right: 100px; 
+ 
+}
+.carré_3 {
+    margin-top: 50px ;
+    background : rgba(169, 169, 169, 0.377);
 }
