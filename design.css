@@ -1,16 +1,18 @@
 
 .page {
     font-family: 'Montserrat', sans-serif;
-    background : rgba(169, 169, 169, 0.377);
+    background : rgb(226, 218, 218);
 }
 
     .sous_page {
-        width: 700px;
+        width: auto;
         display : block;
         margin-left: auto ; 
         margin-right: auto;
         position: relative;
         background : rgb(226, 218, 218);
+        max-width: 700px;
+        min-width: 150px;
                 }
 
 .carré_1 {
@@ -53,7 +55,7 @@
     display : flex ; 
     flex-direction: row ; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size : 30px ; 
     text-align: center;
     margin-top: 50px ;
@@ -68,16 +70,19 @@
             margin-left: 100px ;
             margin-right: 100px; 
             color : rgb(211, 203, 203) ;
+            max-width: 150px ;
         }
 
          .cl2 {
             color : rgb(211, 203, 203) ; 
+            max-width: 150px ;
 }
          .cl3 {
 
             margin-left : 100px ;
             margin-right: 100px; 
-            color : rgb(211, 203, 203) ; 
+            color : rgb(211, 203, 203) ;
+            max-width: 120px ; 
  
 }
 .carré_3 {
@@ -117,4 +122,23 @@
              }
         .sizeImg {
         height: 14em;
+        }
+
+        @media screen and (max-width: 620px) {
+
+        .film_1 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .carré_2 { 
+            flex-direction: column ;
+            
+        }
+        .cl1 ,.cl2,.cl3 {
+            margin-bottom: 30px ;
+            margin-top : 30px ;  
+        } 
+
+ 
+
         }
