@@ -1,6 +1,7 @@
 
 .page {
     font-family: 'Montserrat', sans-serif;
+    background : rgba(169, 169, 169, 0.377);
 }
 
     .sous_page {
@@ -8,15 +9,17 @@
         display : block;
         margin-left: auto ; 
         margin-right: auto;
-        position: relative; 
+        position: relative;
+        background : rgb(226, 218, 218);
                 }
 
 .carré_1 {
-    background : rgba(169, 169, 169, 0.377);
+    background : rgb(226, 218, 218);
     text-align: center;
     box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -moz-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -webkit-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62); 
+    border-radius: 20px;
          }
 
         #photo_mr {
@@ -25,7 +28,9 @@
             margin-right: auto; 
             border-radius:360px;  
             border : black solid 3px ; 
-            width : 150px;
+            width : 150px; 
+            -moz-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
+            -webkit-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
 
                 }
 
@@ -36,8 +41,11 @@
 
         .boutton {
         color : white ; 
-        background : red ; 
+        background : rgb(211, 24, 30) ; 
         font-size : 30px; 
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+        margin-bottom: 25px ;
                 }
 
 .carré_2 {
@@ -49,32 +57,37 @@
     font-size : 30px ; 
     text-align: center;
     margin-top: 50px ;
-    background : rgba(169, 169, 169, 0.377);
+    background : rgb(226, 218, 218);
     box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -moz-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -webkit-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
+    border-radius: 20px;
 }
 
          .cl1 {
             margin-left: 100px ;
             margin-right: 100px; 
+            color : rgb(211, 203, 203) ;
         }
 
          .cl2 {
+            color : rgb(211, 203, 203) ; 
 }
          .cl3 {
 
             margin-left : 100px ;
             margin-right: 100px; 
+            color : rgb(211, 203, 203) ; 
  
 }
 .carré_3 {
     margin-top: 50px ;
-    background : rgba(169, 169, 169, 0.377);
+    background : rgb(226, 218, 218);
     box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -moz-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62);
     -webkit-box-shadow: 2px 0px 24px 9px rgba(119, 119, 119, 0.62); 
     padding-bottom: 5%;
+    border-radius: 20px;
 }
 
         #carre_3_title {
@@ -103,5 +116,5 @@
             width: 100% ;        
              }
         .sizeImg {
-        height: 12em;
+        height: 14em;
         }
